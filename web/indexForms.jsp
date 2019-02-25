@@ -32,17 +32,17 @@
                     <tr>
                         <td>Gender</td>
                         <td><select name="gender">
-                                <option>Mail</option>
+                                <option>Male</option>
                                 <option>Female</option>
                             </select></td>
                     </tr>
                     <tr>
-                        <td>Date of birth</td>
+                        <td>Date of Birth</td>
                         <td><input type="text" name="dob" value="MM/DD/YYYY" size="15" /></td>
                     </tr>
                 </tbody>
             </table>
-            <input type="reset" value="Clear" name="clear" />
+            <input type="reset" value="Clear" name="clear" /><input type="submit" value="Submit" name="submit" />
         </form>
         
     </body>
